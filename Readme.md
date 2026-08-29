@@ -21,9 +21,11 @@ My experience combines circuit-level design, digital hardware development, embed
 
 ---
 
+
+
 ## 📂 Featured Projects
 
-| Project | Area | Description |
+| Project | Area | Description | 
 |---|---|---|
 | [SRAM PUF Array Design](./SRAM%20PUF%20ARRAY%20DESIGN) | VLSI / IC Design | Design and analysis of an SRAM-based Physical Unclonable Function (PUF) array, focusing on circuit behavior, uniqueness, stability, area, and power considerations. |
 | [Multiplier Design](./MULTIPLIER%20DESIGN) | Digital Design / VLSI | Design and implementation of a digital multiplier with emphasis on arithmetic architecture, logic implementation, and performance analysis. |
