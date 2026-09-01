@@ -37,7 +37,7 @@ Graduation project focused on developing an assistive navigation device for visu
 * Developed embedded firmware for positioning and sensor integration.
 * Designed and assembled a 3D-printed enclosure for the prototype.
 
-`ESP32-S3` `GNSS` `UWB` `Embedded C/C++` `PCB Design`
+<img src="https://img.shields.io/badge/ESP32--S3-26a69a?style=flat-square"/> <img src="https://img.shields.io/badge/GNSS-26a69a?style=flat-square"/> <img src="https://img.shields.io/badge/UWB-26a69a?style=flat-square"/> <img src="https://img.shields.io/badge/Embedded%20C%2FC++-26a69a?style=flat-square"/> <img src="https://img.shields.io/badge/PCB%20Design-26a69a?style=flat-square"/>
 
 ---
 
@@ -56,7 +56,7 @@ Practical electrical engineering training involving low-voltage power distributi
 * Worked with power and control wiring based on single-line diagrams.
 * Gained practical exposure to KNX systems and ETS6 configuration.
 
-`Three-Phase Distribution` `Cable Sizing` `Protection` `KNX` `ETS6`
+<img src="https://img.shields.io/badge/Three--Phase%20Distribution-c62828?style=flat-square"/> <img src="https://img.shields.io/badge/Cable%20Sizing-c62828?style=flat-square"/> <img src="https://img.shields.io/badge/Protection-c62828?style=flat-square"/> <img src="https://img.shields.io/badge/KNX-c62828?style=flat-square"/> <img src="https://img.shields.io/badge/ETS6-c62828?style=flat-square"/>
 
 ---
 
@@ -78,7 +78,7 @@ Designed and verified a 4×4 SRAM-based Physical Unclonable Function, from syste
 * Verified functionality through SPICE simulation and performed DRC/LVS checks.
 * Evaluated final circuit area and power consumption.
 
-`CMOS` `Electric VLSI` `LTspice` `DRC` `LVS`
+<img src="https://img.shields.io/badge/CMOS-5c6bc0?style=flat-square"/> <img src="https://img.shields.io/badge/Electric%20VLSI-5c6bc0?style=flat-square"/> <img src="https://img.shields.io/badge/LTspice-5c6bc0?style=flat-square"/> <img src="https://img.shields.io/badge/DRC-5c6bc0?style=flat-square"/> <img src="https://img.shields.io/badge/LVS-5c6bc0?style=flat-square"/>
 
 ---
 
@@ -98,7 +98,7 @@ Custom ESP32 development board designed from schematic capture through PCB layou
 * Selected components and footprints using datasheets and reference designs.
 * Completed component placement, routing, copper planes, and DRC verification.
 
-`EasyEDA` `ESP32-WROOM-32` `USB-C` `USB-to-UART` `PCB Layout`
+<img src="https://img.shields.io/badge/EasyEDA-ef6c00?style=flat-square"/> <img src="https://img.shields.io/badge/ESP32--WROOM--32-ef6c00?style=flat-square"/> <img src="https://img.shields.io/badge/USB--C-ef6c00?style=flat-square"/> <img src="https://img.shields.io/badge/USB--to--UART-ef6c00?style=flat-square"/> <img src="https://img.shields.io/badge/PCB%20Layout-ef6c00?style=flat-square"/>
 
 ---
 
@@ -111,7 +111,7 @@ Completed practical training in transistor-level analog and mixed-signal IC desi
 * Performed DC, transient, AC, and frequency-response simulations.
 * Evaluated transistor biasing, gain, and operating regions.
 
-`Synopsys Custom Compiler` `CMOS` `Analog IC Design` `Circuit Simulation`
+<img src="https://img.shields.io/badge/Synopsys%20Custom%20Compiler-5c6bc0?style=flat-square"/> <img src="https://img.shields.io/badge/CMOS-5c6bc0?style=flat-square"/> <img src="https://img.shields.io/badge/Analog%20IC%20Design-5c6bc0?style=flat-square"/> <img src="https://img.shields.io/badge/Circuit%20Simulation-5c6bc0?style=flat-square"/>
 
 ---
 
@@ -124,7 +124,7 @@ Designed a Verilog-based multiplier and compared Ripple Carry Adder and Carry Lo
 * Analyzed propagation delay and critical paths.
 * Compared RCA and CLA timing performance.
 
-`Verilog HDL` `Active-HDL` `Digital Design` `Timing Analysis`
+<img src="https://img.shields.io/badge/Verilog%20HDL-3949ab?style=flat-square"/> <img src="https://img.shields.io/badge/Active--HDL-3949ab?style=flat-square"/> <img src="https://img.shields.io/badge/Digital%20Design-3949ab?style=flat-square"/> <img src="https://img.shields.io/badge/Timing%20Analysis-3949ab?style=flat-square"/>
 
 ---
 
@@ -136,7 +136,7 @@ Designed and simulated a digital microcomputer architecture integrating processi
 * Integrated memory and data-flow components.
 * Performed system-level simulation and functional validation.
 
-`Computer Architecture` `Digital Logic` `Simulation`
+<img src="https://img.shields.io/badge/Computer%20Architecture-3949ab?style=flat-square"/> <img src="https://img.shields.io/badge/Digital%20Logic-3949ab?style=flat-square"/> <img src="https://img.shields.io/badge/Simulation-3949ab?style=flat-square"/>
 
 ---
 
@@ -193,12 +193,12 @@ Designed and simulated a digital microcomputer architecture integrating processi
 
 I am currently interested in graduate and junior engineering opportunities involving:
 
-* IC / VLSI Design
-* Analog and Mixed-Signal IC Design
-* Embedded Systems
-* PCB Design and Hardware Development
-* Electrical Power Distribution
-* KNX and Building Automation
+<img src="https://img.shields.io/badge/IC%20%2F%20VLSI%20Design-5c6bc0?style=flat-square"/>
+<img src="https://img.shields.io/badge/Analog%20%26%20Mixed--Signal%20IC%20Design-5c6bc0?style=flat-square"/>
+<img src="https://img.shields.io/badge/Embedded%20Systems-26a69a?style=flat-square"/>
+<img src="https://img.shields.io/badge/PCB%20Design%20%26%20Hardware%20Dev-ef6c00?style=flat-square"/>
+<img src="https://img.shields.io/badge/Electrical%20Power%20Distribution-c62828?style=flat-square"/>
+<img src="https://img.shields.io/badge/KNX%20%26%20Building%20Automation-6d4c41?style=flat-square"/>
 
 ---
 
