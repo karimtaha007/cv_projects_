@@ -1,206 +1,130 @@
-# Kareem Taha — Electrical Engineering Portfolio
+# Kareem Taha
 
-**Electrical Engineering Graduate — Birzeit University**
-IC / VLSI Design · Embedded Systems & IoT Hardware · PCB Design · Power Distribution & Building Automation
+Electrical Engineering Graduate — Birzeit University
+IC/VLSI Design · Embedded Systems · PCB Design · Power Distribution & Building Automation
 
-📍 Ramallah, Palestine · 📧 karimbtaha6@gmail.com · [LinkedIn](#) · [GitHub](https://github.com/karimtaha007)
+📧 karimbtaha6@gmail.com · 📍 Ramallah, Palestine · [GitHub](https://github.com/karimtaha007)
 
----
+![VLSI](https://img.shields.io/badge/-VLSI%2FIC%20Design-5c6bc0?style=flat-square) ![Embedded](https://img.shields.io/badge/-Embedded%20Systems-26a69a?style=flat-square) ![PCB](https://img.shields.io/badge/-PCB%20Design-ef6c00?style=flat-square) ![Power](https://img.shields.io/badge/-Power%20Systems-c62828?style=flat-square) ![KNX](https://img.shields.io/badge/-Building%20Automation-6d4c41?style=flat-square) ![PLC](https://img.shields.io/badge/-PLC%20%2F%20Industrial%20Control-546e7a?style=flat-square)
 
-## About Me
-
-I'm an Electrical Engineering graduate from Birzeit University with a hands-on, full-stack view of hardware — from the transistor up to the finished, wired system. My work spans four areas that I'm actively building a career across:
-
-- **Analog & Mixed-Signal / Digital IC Design (VLSI)** — transistor-level circuit design, physical layout, and verification
-- **Embedded Systems & IoT Hardware** — microcontroller firmware, sensor integration, wireless communication
-- **PCB Design** — schematic capture, layout, and design-rule verification for real, manufactured boards
-- **Power Distribution & Building Automation** — panel design, three-phase wiring, protection coordination, and KNX systems
-
-This repository brings together my academic, training, and independent projects across all four areas.
+I work across the full stack of electrical hardware — from transistor-level IC design, to embedded firmware and PCBs, to the panels and wiring that actually distribute power. Below are the projects and training that make up that experience.
 
 ---
 
-## 🧠 Technical Interests
+### Projects
 
-| Domain | Focus |
-|---|---|
-| **VLSI / IC Design** | Physical design, digital & analog/mixed-signal circuits, design verification (DRC/LVS) |
-| **Embedded Systems** | ESP32/ESP32-S3 firmware, sensor fusion, real-time positioning (GNSS/UWB), BLE |
-| **PCB Design** | Schematic capture & layout in EasyEDA/KiCad, power regulation, USB-C & USB-UART interfacing |
-| **Power Systems** | Load calculation, cable/breaker sizing, protection & relay coordination, load-flow/fault analysis (ETAP, PowerWorld) |
-| **Building Automation** | KNX (ETS6) topology, addressing, switching & dimming control |
-| **Industrial Control** | PLC programming (Siemens LOGO!, Delta), ladder logic, I/O configuration |
-
----
-
-## 📂 Featured Projects
-
-| Project | Area | Description |
-|---|---|---|
-| [PaldiBlind](#-paldiblind--indooroutdoor-navigation-for-the-visually-impaired) | Embedded Systems / PCB | Assistive navigation device integrating ESP32-S3, GNSS, UWB, and IMU for indoor/outdoor positioning |
-| [Custom ESP32-WROOM-32 Dev Board](./ESP32%20DEV%20BOARD) | PCB Design | Full schematic-to-layout design of a custom ESP32 development board |
-| [SRAM PUF Array Design](./SRAM%20PUF%20ARRAY%20DESIGN) | VLSI / IC Design | 4×4 SRAM-based Physical Unclonable Function — physical layout, DRC/LVS, area & power analysis |
-| [Multiplier Design](./MULTIPLIER%20DESIGN) | Digital Design / VLSI | 4-bit × n-bit multiplier (RCA vs. CLA) in Verilog with timing analysis |
-| [Microcomputer Architecture Design](./MICROCOMPUTER%20ARCHITECTURE%20DESIGN) | Computer Architecture | Integrated processing, memory, control, and peripheral design |
-| [uWave Semiconductor Training](./uWave) | Analog & Mixed-Signal IC Design | Transistor-level amplifier design and simulation (Synopsys Custom Compiler) |
-| [Melemco Control & KNX Panels](./Melemco%20Co) | Power & Building Automation | 400 A three-phase distribution board wiring, KNX panel integration |
-| [Power System Protection & Relay Coordination](./ETAP) | Power Systems | Relay/fuse/recloser coordination on a 5-bus radial network in ETAP |
-| [Power System Analysis](./PowerWorld) | Power Systems | Load-flow, Y-bus modeling, and fault analysis in PowerWorld Simulator |
+- [PaldiBlind — Assistive Navigation Device](#paldiblind--assistive-navigation-device)
+- [Custom ESP32-WROOM-32 Dev Board](#custom-esp32-wroom-32-dev-board)
+- [Melemco — Power Distribution & KNX Panels](#melemco--power-distribution--knx-panels)
+- [SRAM PUF Array Design](#sram-puf-array-design)
+- [Multiplier Design (RCA vs. CLA)](#multiplier-design-rca-vs-cla)
+- [Microcomputer Architecture Design](#microcomputer-architecture-design)
+- [uWave Semiconductor — Analog/Mixed-Signal IC Training](#uwave-semiconductor--analogmixed-signal-ic-training)
 
 ---
 
-## 🦯 PaldiBlind — Indoor/Outdoor Navigation for the Visually Impaired
+## <span style="color:#26a69a">PaldiBlind</span> — Assistive Navigation Device
 
-**Graduation Project** — a complete assistive navigation device, designed end-to-end: custom PCB, embedded firmware, sensor integration, and a 3D-printed enclosure.
+Graduation project: a navigation device for visually impaired users, combining GNSS (outdoor) and UWB (indoor) positioning on an ESP32-S3. I designed the custom PCB, wrote the firmware, and built the enclosure.
 
-PaldiBlind combines GNSS outdoor positioning with UWB indoor positioning on an ESP32-S3 platform to give visually impaired users reliable, continuous navigation guidance as they move between outdoor and indoor spaces.
+<p>
+<img src="./assets/paldiblind_pcb.jpg" width="48%"/>
+<img src="./assets/paldiblind_device.jpg" width="48%"/>
+</p>
 
-<table>
-<tr>
-<td width="50%">
-<img src="./assets/paldiblind_pcb.jpg" alt="PaldiBlind custom PCB - ESP32-S3, GPS, and IMU modules" width="100%"/>
-<p align="center"><sub>Custom PCB — ESP32-S3, GPS, and IMU integration</sub></p>
-</td>
-<td width="50%">
-<img src="./assets/paldiblind_device.jpg" alt="PaldiBlind assembled navigation device in 3D-printed enclosure" width="100%"/>
-<p align="center"><sub>Assembled device — 3D-printed enclosure</sub></p>
-</td>
-</tr>
-</table>
+- Custom PCB integrating ESP32-S3, GPS module, and IMU
+- Firmware for GNSS/UWB sensor fusion and real-time positioning
+- 3D-printed enclosure for a field-ready prototype
 
-**Key Contributions**
-- Designed the custom PCB from schematic to layout, integrating the ESP32-S3, GPS/GNSS module, and IMU on a single board
-- Implemented GNSS-based outdoor positioning and UWB-based indoor positioning
-- Developed embedded firmware for sensor fusion and system operation
-- Designed and 3D-printed the enclosure for the final field-ready prototype
-- Performed full system integration, calibration, and testing
-
-**Technologies:** `ESP32-S3` `GNSS` `UWB` `IMU` `BLE` `Embedded C/C++` `PCB Design` `3D Printing`
-
-[View project on GitHub →](https://github.com/karimtaha007)
+`ESP32-S3` `GNSS` `UWB` `IMU` `Embedded C/C++` `PCB Design`
 
 ---
 
-## ⚡ Melemco Control & KNX Distribution Panels
+## <span style="color:#ef6c00">Custom ESP32-WROOM-32 Dev Board</span>
 
-Practical training in low-voltage power distribution and building automation at Melemco Electrical Co.
+A development board designed from schematic to layout in EasyEDA — power regulation, USB-to-UART, and USB-C, built and verified as a working board.
 
-**Key Contributions**
-- Completed load calculations, cable sizing, and breaker sizing for a 400 A three-phase distribution board
-- Assisted with panel design, component installation, and power/control wiring
-- Gained hands-on exposure to KNX panels — device installation, wiring, and ETS6-based configuration
-- Read and verified single-line diagrams against installed panel wiring
+<p>
+<img src="./assets/esp32_3d.png" width="48%"/>
+<img src="./assets/esp32_layout.png" width="48%"/>
+</p>
 
-**Technologies:** `Three-Phase Distribution` `Circuit Breaker & Cable Sizing` `KNX / ETS6` `Single-Line Diagrams` `PLC Basics`
+- Power regulation, USB-C, and USB-to-UART circuitry
+- Component selection and footprints from datasheets and reference designs
+- Full placement, routing, and DRC verification
 
----
-
-## 🔌 Custom ESP32-WROOM-32 Development Board
-
-A ground-up PCB design project: schematic capture through layout for a fully functional ESP32-WROOM-32 development board.
-
-**Key Contributions**
-- Designed power regulation, USB-to-UART, and USB-C connectivity circuitry
-- Selected components and footprints based on manufacturer reference designs and datasheets
-- Completed component placement, routing, and design-rule checking (DRC)
-
-**Technologies:** `EasyEDA` `ESP32-WROOM-32` `Power Regulation` `USB-C` `DRC`
+`EasyEDA` `ESP32-WROOM-32` `Power Regulation` `USB-C` `DRC`
 
 ---
 
-## 🔬 SRAM PUF Array Design
+## <span style="color:#c62828">Melemco</span> — Power Distribution & KNX Panels
 
-Digital IC/VLSI project exploring SRAM-based Physical Unclonable Functions for hardware security applications.
+Practical training in low-voltage power distribution: load calculations, cable/breaker sizing, and wiring a 400 A three-phase distribution board, plus hands-on KNX panel exposure.
 
-**Key Contributions**
-- Designed the physical layout of a 4×4 SRAM-based PUF array — floor planning, symmetric transistor placement, VDD/GND routing
-- Performed DRC and LVS verification to confirm layout–schematic consistency
-- Evaluated area efficiency and power consumption of the final layout
+<p>
+<img src="./assets/melemco_panel_1.jpg" width="48%"/>
+<img src="./assets/melemco_panel_2.jpg" width="48%"/>
+</p>
 
-**Technologies:** `CMOS` `SRAM` `PUF` `Electric VLSI` `LTspice` `DRC/LVS`
+- Load calculations, cable sizing, and breaker sizing for a 400 A three-phase board
+- Panel design, component installation, and power/control wiring
+- KNX device installation and ETS6-based configuration
 
----
-
-## ⚙️ Multiplier Design
-
-Advanced digital design project comparing multiplier architectures for speed and area trade-offs.
-
-**Key Contributions**
-- Designed and verified a 4-bit × n-bit multiplier in Verilog using Ripple Carry Adder (RCA) and Carry Look-Ahead Adder (CLA) architectures
-- Built testbenches and ran functional simulation in Active-HDL
-- Analyzed propagation delay and critical paths to compare RCA vs. CLA timing performance
-
-**Technologies:** `Verilog` `Active-HDL` `Digital Arithmetic` `Timing Analysis`
+`Three-Phase Distribution` `Cable & Breaker Sizing` `KNX / ETS6` `Single-Line Diagrams`
 
 ---
 
-## 🖥️ Microcomputer Architecture Design
+## <span style="color:#5c6bc0">SRAM PUF Array Design</span>
 
-System-level digital design project integrating the core building blocks of a computer system.
+4×4 SRAM-based Physical Unclonable Function — physical layout, verification, and area/power analysis.
 
-**Key Contributions**
-- Designed the overall microcomputer architecture, integrating processing, memory, and control units
-- Developed and verified digital logic blocks and data-flow/control-signal paths
-- Validated system operation through simulation
+- Floor planning, symmetric transistor placement, VDD/GND routing
+- DRC and LVS verification for layout–schematic consistency
+- Area and power evaluation of the final layout
 
-**Technologies:** `Computer Architecture` `Digital Logic` `Memory & Control Design` `Simulation`
-
----
-
-## 🔬 Analog & Mixed-Signal IC Design — uWave Semiconductor Training
-
-Transistor-level circuit design and simulation training in analog and mixed-signal IC design.
-
-**Key Contributions**
-- Designed and analyzed common-source and common-drain amplifier stages and a differential amplifier at the transistor level
-- Performed DC operating-point, transient, AC, and frequency-response analyses using Synopsys Custom Compiler
-- Evaluated biasing, voltage gain, and operating regions across circuit variants
-
-**Technologies:** `Synopsys Custom Compiler` `CMOS` `Analog IC Design` `Mixed-Signal Design`
+`CMOS` `Electric VLSI` `LTspice` `DRC/LVS`
 
 ---
 
-## 🔩 Power System Protection & Relay Coordination (ETAP)
+## <span style="color:#5c6bc0">Multiplier Design (RCA vs. CLA)</span>
 
-**Key Contributions**
-- Modeled a 5-bus radial distribution network and analyzed voltage profiles, power losses, and fault-current levels
-- Calculated CT ratios and overcurrent relay pickup/time-dial settings using CO-8 inverse-time coordination
-- Designed a coordinated primary/backup protection scheme with breakers, fuses, and reclosers, validated through TCC analysis
+4-bit × n-bit multiplier in Verilog, comparing Ripple Carry and Carry Look-Ahead adder architectures.
 
-**Technologies:** `ETAP` `Relay Coordination` `Fault Analysis` `TCC Curves`
+- Functional simulation and testbench verification in Active-HDL
+- Propagation delay and critical-path analysis
+- Timing comparison between RCA and CLA implementations
 
----
-
-## 📉 Power System Analysis (PowerWorld Simulator)
-
-**Key Contributions**
-- Modeled a transmission and distribution network, deriving per-unit parameters and the Y-bus matrix
-- Evaluated transformer loading limits, voltage stability, and system losses
-- Applied shunt capacitor compensation and performed three-phase fault analysis for protection design
-
-**Technologies:** `PowerWorld Simulator` `Load Flow` `Y-Bus Modeling` `Fault Analysis`
+`Verilog` `Active-HDL` `Timing Analysis`
 
 ---
 
-## 🛠️ Engineering Tools
+## <span style="color:#5c6bc0">Microcomputer Architecture Design</span>
 
-| Category | Tools |
-|---|---|
-| **IC & VLSI Design** | Synopsys Custom Compiler, Electric VLSI, LTspice, OrCAD PSpice |
-| **Digital Design** | Active-HDL, Quartus |
-| **Embedded Systems & PCB** | ESP32, Arduino IDE, EasyEDA, KiCad, Proteus |
-| **Power Systems** | ETAP, PowerWorld Simulator, AutoCAD, ETS6 |
-| **Simulation & Analysis** | MATLAB/Simulink, Cisco Packet Tracer, ArcGIS |
+System-level design integrating processing, memory, and control units into a single microcomputer architecture.
 
----
+- Digital logic blocks for data-flow and control signals
+- Full system simulation and validation
 
-## 📫 Contact
-
-Open to graduate engineering opportunities, internships, and collaborations in semiconductor design, VLSI, embedded systems, PCB design, and power/building-automation engineering.
-
-- **Email:** karimbtaha6@gmail.com
-- **GitHub:** [karimtaha007](https://github.com/karimtaha007)
+`Computer Architecture` `Digital Logic` `Simulation`
 
 ---
 
-<p align="center"><sub>This repository is maintained as a living engineering portfolio — updated as new hardware, IC design, PCB, and embedded-systems projects are completed.</sub></p>
+## <span style="color:#26a69a">uWave Semiconductor</span> — Analog/Mixed-Signal IC Training
+
+Transistor-level analog circuit design and simulation training.
+
+- Common-source, common-drain, and differential amplifier design
+- DC, transient, AC, and frequency-response analysis
+- Biasing, gain, and operating-region evaluation
+
+`Synopsys Custom Compiler` `CMOS` `Analog IC Design`
+
+---
+
+### Tools
+
+AutoCAD · ETAP · PowerWorld · ETS6 · EasyEDA · KiCad · Proteus · Synopsys Custom Compiler · Electric VLSI · LTspice · OrCAD PSpice · Active-HDL · Quartus · MATLAB/Simulink
+
+---
+
+📫 Open to graduate roles, internships, and collaborations in VLSI, embedded systems, PCB design, and power/building-automation engineering.
