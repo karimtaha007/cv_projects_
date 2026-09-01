@@ -46,8 +46,10 @@ Custom ESP32 development board designed from schematic capture through PCB layou
 <p align="center">
   <img src="./assets/esp32_3d.png" width="360"/>
   &nbsp;&nbsp;
-  <img src="./assets/esp32_layout.png" width="360"/>
+  <img src="./assets/esp32_pcb_layers.png" width="360"/>
 </p>
+
+<p align="center"><sub>3D render (left) · silkscreen, plane, and routing layers (right)</sub></p>
 
 * Designed USB-C, USB-to-UART, and voltage-regulation circuitry.
 * Selected components and footprints using datasheets and reference designs.
