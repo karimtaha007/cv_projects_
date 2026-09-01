@@ -4,7 +4,7 @@
 
 # 👋 Hi there! I'm Kareem Taha 👋
 
-### Electrical Engineering Graduate — Birzeit University | IC/VLSI · Embedded Systems · PCB · Power Systems ⚡🇵🇸
+### Automation · Power Distribution · IC Design ⚡🇵🇸
 
 📧 [karimbtaha6@gmail.com](mailto:karimbtaha6@gmail.com) · 📍 Ramallah, Palestine · [GitHub](https://github.com/karimtaha007)
 
