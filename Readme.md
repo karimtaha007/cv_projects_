@@ -142,15 +142,50 @@ Designed and simulated a digital microcomputer architecture integrating processi
 
 ## Technical Skills
 
-| Area                 | Tools & Technologies                                           |
-| -------------------- | -------------------------------------------------------------- |
-| IC / VLSI            | Synopsys Custom Compiler, Electric VLSI, LTspice, OrCAD PSpice |
-| Embedded Systems     | ESP32, C/C++, Arduino IDE, Python                              |
-| PCB Design           | EasyEDA, KiCad, schematic capture, layout, DRC                 |
-| Digital Design       | Verilog HDL, Active-HDL, Quartus Prime                         |
-| Power Systems        | ETAP, PowerWorld, LV distribution, cable & breaker sizing      |
-| Building Automation  | KNX, ETS6                                                      |
-| Engineering Software | MATLAB/Simulink, AutoCAD, Proteus                              |
+**IC / VLSI**
+<br>
+<img src="https://img.shields.io/badge/Synopsys%20Custom%20Compiler-5c6bc0?style=flat-square"/>
+<img src="https://img.shields.io/badge/Electric%20VLSI-5c6bc0?style=flat-square"/>
+<img src="https://img.shields.io/badge/LTspice-5c6bc0?style=flat-square"/>
+<img src="https://img.shields.io/badge/OrCAD%20PSpice-5c6bc0?style=flat-square"/>
+
+**Embedded Systems**
+<br>
+<img src="https://img.shields.io/badge/ESP32-26a69a?style=flat-square&logo=espressif&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%2FC++-26a69a?style=flat-square&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Arduino%20IDE-26a69a?style=flat-square&logo=arduino&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-26a69a?style=flat-square&logo=python&logoColor=white"/>
+
+**PCB Design**
+<br>
+<img src="https://img.shields.io/badge/EasyEDA-ef6c00?style=flat-square"/>
+<img src="https://img.shields.io/badge/KiCad-ef6c00?style=flat-square&logo=kicad&logoColor=white"/>
+<img src="https://img.shields.io/badge/Schematic%20Capture-ef6c00?style=flat-square"/>
+<img src="https://img.shields.io/badge/Layout%20%26%20DRC-ef6c00?style=flat-square"/>
+
+**Digital Design**
+<br>
+<img src="https://img.shields.io/badge/Verilog%20HDL-3949ab?style=flat-square"/>
+<img src="https://img.shields.io/badge/Active--HDL-3949ab?style=flat-square"/>
+<img src="https://img.shields.io/badge/Quartus%20Prime-3949ab?style=flat-square"/>
+
+**Power Systems**
+<br>
+<img src="https://img.shields.io/badge/ETAP-c62828?style=flat-square"/>
+<img src="https://img.shields.io/badge/PowerWorld-c62828?style=flat-square"/>
+<img src="https://img.shields.io/badge/LV%20Distribution-c62828?style=flat-square"/>
+<img src="https://img.shields.io/badge/Cable%20%26%20Breaker%20Sizing-c62828?style=flat-square"/>
+
+**Building Automation**
+<br>
+<img src="https://img.shields.io/badge/KNX-6d4c41?style=flat-square"/>
+<img src="https://img.shields.io/badge/ETS6-6d4c41?style=flat-square"/>
+
+**Engineering Software**
+<br>
+<img src="https://img.shields.io/badge/MATLAB%2FSimulink-546e7a?style=flat-square"/>
+<img src="https://img.shields.io/badge/AutoCAD-546e7a?style=flat-square&logo=autodesk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Proteus-546e7a?style=flat-square"/>
 
 ---
 
