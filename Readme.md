@@ -19,7 +19,7 @@ Electrical Engineering graduate with hands-on experience across multiple levels 
 
 ---
 
-## Featured Projects
+## Projects
 
 ### PaldiBlind — Assistive Navigation Device
 
@@ -36,6 +36,46 @@ Graduation project focused on developing an assistive navigation device for visu
 * Designed and assembled a 3D-printed enclosure for the prototype.
 
 `ESP32-S3` `GNSS` `UWB` `Embedded C/C++` `PCB Design`
+
+---
+
+### Melemco — Power Distribution & KNX Panels
+
+Practical electrical engineering training involving low-voltage power distribution, electrical panels, and building automation systems.
+
+<p align="center">
+  <img src="./assets/melemco_panel_1.jpg" width="330"/>
+  &nbsp;&nbsp;
+  <img src="./assets/melemco_panel_2.jpg" width="330"/>
+</p>
+
+* Performed load calculations and cable/breaker sizing.
+* Participated in assembly and wiring of a 400 A three-phase distribution board.
+* Worked with power and control wiring based on single-line diagrams.
+* Gained practical exposure to KNX systems and ETS6 configuration.
+
+`Three-Phase Distribution` `Cable Sizing` `Protection` `KNX` `ETS6`
+
+---
+
+### SRAM PUF Array Design
+
+Designed and verified a 4×4 SRAM-based Physical Unclonable Function, from system architecture down to transistor-level layout.
+
+<p align="center">
+  <img src="./assets/sram_puf_schematic.png" width="360"/>
+  &nbsp;&nbsp;
+  <img src="./assets/sram_puf_simulation.png" width="360"/>
+</p>
+
+<p align="center"><sub>Array + comparator readout architecture (left) · SPICE simulation of a PUF output bit (right)</sub></p>
+
+* Designed the array, decoder, and comparator-based readout architecture.
+* Developed the physical layout with symmetric transistor placement and VDD/GND routing.
+* Verified functionality through SPICE simulation and performed DRC/LVS checks.
+* Evaluated final circuit area and power consumption.
+
+`CMOS` `Electric VLSI` `LTspice` `DRC` `LVS`
 
 ---
 
@@ -59,37 +99,16 @@ Custom ESP32 development board designed from schematic capture through PCB layou
 
 ---
 
-### Melemco — Power Distribution & KNX Panels
+### uWave Semiconductor — Analog/Mixed-Signal IC Training
 
-Practical electrical engineering training involving low-voltage power distribution, electrical panels, and building automation systems.
+Completed practical training in transistor-level analog and mixed-signal IC design.
 
-<p align="center">
-  <img src="./assets/melemco_panel_1.jpg" width="330"/>
-  &nbsp;&nbsp;
-  <img src="./assets/melemco_panel_2.jpg" width="330"/>
-</p>
+* Designed common-source and common-drain amplifier circuits.
+* Designed and analyzed differential amplifier stages.
+* Performed DC, transient, AC, and frequency-response simulations.
+* Evaluated transistor biasing, gain, and operating regions.
 
-* Performed load calculations and cable/breaker sizing.
-* Participated in assembly and wiring of a 400 A three-phase distribution board.
-* Worked with power and control wiring based on single-line diagrams.
-* Gained practical exposure to KNX systems and ETS6 configuration.
-
-`Three-Phase Distribution` `Cable Sizing` `Protection` `KNX` `ETS6`
-
----
-
-## IC & Digital Design Projects
-
-### SRAM PUF Array Design
-
-Designed and verified a 4×4 SRAM-based Physical Unclonable Function at transistor and physical-layout level.
-
-* Developed the SRAM PUF layout with symmetric transistor placement.
-* Implemented VDD/GND routing and physical floorplanning.
-* Performed DRC and LVS verification.
-* Evaluated final circuit area and power consumption.
-
-`CMOS` `Electric VLSI` `LTspice` `DRC` `LVS`
+`Synopsys Custom Compiler` `CMOS` `Analog IC Design` `Circuit Simulation`
 
 ---
 
@@ -115,21 +134,6 @@ Designed and simulated a digital microcomputer architecture integrating processi
 * Performed system-level simulation and functional validation.
 
 `Computer Architecture` `Digital Logic` `Simulation`
-
----
-
-## Analog / Mixed-Signal IC Training
-
-### uWave Semiconductor
-
-Completed practical training in transistor-level analog and mixed-signal IC design.
-
-* Designed common-source and common-drain amplifier circuits.
-* Designed and analyzed differential amplifier stages.
-* Performed DC, transient, AC, and frequency-response simulations.
-* Evaluated transistor biasing, gain, and operating regions.
-
-`Synopsys Custom Compiler` `CMOS` `Analog IC Design` `Circuit Simulation`
 
 ---
 
