@@ -62,11 +62,12 @@ Practical electrical engineering training involving low-voltage power distributi
 
 Designed and verified a 4×4 SRAM-based Physical Unclonable Function, from system architecture down to transistor-level layout.
 
-<p align="center">
-  <img src="./assets/sram_puf_schematic.png" width="360"/>
-  &nbsp;&nbsp;
-  <img src="./assets/sram_puf_simulation.png" width="360"/>
-</p>
+<table>
+<tr>
+<td width="50%" align="center"><img src="./assets/sram_puf_schematic.png" width="100%"/></td>
+<td width="50%" align="center"><img src="./assets/sram_puf_simulation.png" width="100%"/></td>
+</tr>
+</table>
 
 <p align="center"><sub>Array + comparator readout architecture (left) · SPICE simulation of a PUF output bit (right)</sub></p>
 
